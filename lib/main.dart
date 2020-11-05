@@ -95,7 +95,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             child: Text('FACE'), color: Colors.blue);
                       } else {
                         return Container(
-                          child: Text('----'),
+                          child: Text((index + 1).toString()),
                           color: Colors.grey,
                         );
                       }
